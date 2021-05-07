@@ -1,0 +1,406 @@
+products:
+- title: frenos
+  handle: break
+  subsection:
+  - titulo: frenos para Suzuki
+    marca: suzuki
+    rating: 3  
+    image: assets/img/product/product3.jpg
+    img: assets/img/product/product4.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+                         eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - titulo: Variable with soldout product for title
+    marca: suzuki
+    rating: 8
+    image: assets/img/product/product8.jpg
+    img: assets/img/product/product9.jpg
+    descuento: 30%
+    free_shipping: 
+    descripcion_markdown: >-
+                     eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - titulo: JBL Flip 3 Splasroof Portable Bluetooth 2
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product1.jpg
+    img: assets/img/product/product2.jpg
+    descuento:  -47%
+    free_shipping: 
+    descripcion_markdown: >-
+                 eget velit. Donec ac tempus ante. Fusce ultricies massa massa.
+                  Fusce aliquam, purus eget sagittis vulputate, sapien libero 
+                  hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '180.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: Koss Porta Pro On Ear Headphones 
+    marca: suzuki
+    rating: 5
+    image: assets/img/product/product12.jpg
+    img: assets/img/product/product13.jpg
+    descuento: 100%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '900.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: Lorem ipsum dolor sit amet, consectetur
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product6.jpg
+    img: assets/img/product/product7.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '175.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg 
+
+  - titulo: Accusantium dolorem Security Camera
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product10.jpg
+    img: assets/img/product/product11.jpg
+    descuento: 90%
+    free_shipping: 
+    descripcion_markdown: >-
+             eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '140.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+     - frenos
+    subsubsection:
+     - image: assets/img/product/product8.jpg
+     - image: assets/img/product/product9.jpg
+     - image: assets/img/product/product10.jpg
+     - image: assets/img/product/product13.jpg
+
+- title: Luces
+  handle: wheels
+  subsection:
+  - titulo: frenos para Suzuki
+    marca: suzuki
+    rating: 3  
+    image: assets/img/product/product10.jpg
+    img: assets/img/product/product11.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+                         eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - titulo: Variable with soldout product for title
+    marca: suzuki
+    rating: 8
+    image: assets/img/product/product12.jpg
+    img: assets/img/product/product13.jpg
+    descuento: 30%
+    free_shipping: 
+    descripcion_markdown: >-
+                     eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - tiulo: JBL Flip 3 Splasroof Portable Bluetooth 2
+    marca: suzuki
+    rating: 2
+    image: assets/img/product/product14.jpg
+    img: assets/img/product/product15.jpg
+    descuento:  -47%
+    free_shipping: 
+    descripcion_markdown: >-
+           eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '180.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: Koss Porta Pro On Ear Headphones 
+    marca: suzuki
+    rating: 5
+    image: assets/img/product/product16.jpg
+    img: assets/img/product/product17.jpg
+    descuento: 100%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '900.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  
+  - titulo: Lorem ipsum dolor sit amet, consectetur
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product18.jpg
+    img: assets/img/product/product1.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '175.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg 
+
+  - titulo: wheel1
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product2.jpg
+    img: assets/img/product/product3.jpg
+    descuento: 90%
+    free_shipping: 
+    descripcion_markdown: >-
+             eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '140.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+     - frenos
+    subsubsection:
+     - image: assets/img/product/product8.jpg
+     - image: assets/img/product/product9.jpg
+     - image: assets/img/product/product10.jpg
+     - image: assets/img/product/product13.jpg
+
+  - titulo: wheel1
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product4.jpg
+    img: assets/img/product/product5.jpg
+    descuento: 90%
+    free_shipping: 
+    descripcion_markdown: >-
+             eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '140.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+     - frenos
+    subsubsection:
+     - image: assets/img/product/product8.jpg
+     - image: assets/img/product/product9.jpg
+     - image: assets/img/product/product10.jpg
+     - image: assets/img/product/product13.jpg
+
+- title: turbo
+  handle: turbo
+  subsection:
+  - titulo: frenos para Suzuki
+    marca: suzuki
+    rating: 3  
+    image: assets/img/product/product8.jpg
+    img: assets/img/product/product9.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+                         eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - titulo: Variable with soldout product for title
+    marca: suzuki
+    rating: 8
+    image: assets/img/product/product12.jpg
+    img: assets/img/product/product13.jpg
+    descuento: 30%
+    free_shipping: 
+    descripcion_markdown: >-
+                     eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '160.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+       - frenos
+    subsubsection:
+       - image: assets/img/product/product8.jpg
+       - image: assets/img/product/product9.jpg
+       - image: assets/img/product/product10.jpg
+       - image: assets/img/product/product13.jpg
+
+  - tiulo: JBL Flip 3 Splasroof Portable Bluetooth 2
+    marca: suzuki
+    rating: 2
+    image: assets/img/product/product14.jpg
+    img: assets/img/product/product15.jpg
+    descuento:  -47%
+    free_shipping: 
+    descripcion_markdown: >-
+           eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '180.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: Koss Porta Pro On Ear Headphones 
+    marca: suzuki
+    rating: 5
+    image: assets/img/product/product16.jpg
+    img: assets/img/product/product17.jpg
+    descuento: 100%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '900.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: Lorem ipsum dolor sit amet, consectetur
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product18.jpg
+    img: assets/img/product/product1.jpg
+    descuento: -47%
+    free_shipping: 
+    descripcion_markdown: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '175.00'
+    stock: 10
+    categories:
+      - frenos
+    subsubsection:
+      - image: assets/img/product/product8.jpg
+      - image: assets/img/product/product9.jpg
+      - image: assets/img/product/product10.jpg
+      - image: assets/img/product/product13.jpg
+
+  - titulo: wheel1
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product2.jpg
+    img: assets/img/product/product3.jpg
+    descuento: 90%
+    free_shipping: 
+    descripcion_markdown: >-
+             eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '140.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+     - frenos
+    subsubsection:
+     - image: assets/img/product/product8.jpg
+     - image: assets/img/product/product9.jpg
+     - image: assets/img/product/product10.jpg
+     - image: assets/img/product/product13.jp
+
+  - titulo: wheel1
+    marca: suzuki
+    rating: 3
+    image: assets/img/product/product4.jpg
+    img: assets/img/product/product5.jpg
+    descuento: 90%
+    free_shipping: 
+    descripcion_markdown: >-
+             eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+    price: '140.00'
+    old_price: '3200.00'
+    stock: 10
+    categories:
+     - frenos
+    subsubsection:
+     - image: assets/img/product/product8.jpg
+     - image: assets/img/product/product9.jpg
+     - image: assets/img/product/product10.jpg
+     - image: assets/img/product/product13.jp

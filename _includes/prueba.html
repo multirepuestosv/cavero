@@ -1,0 +1,54 @@
+<!--{% assign post = include.post %}
+{% for post_tag in post.categories %}
+    {% assign post_tag_downcase = post_tag | downcase %}
+       {% for site_tag in site.product_tags %}
+              {% assign site_tag_title = site_tag.handle | downcase  %}
+              {% if site_tag_title == post_tag_downcase and post.marca ==  'ford' %}
+                 {{ site_tag.handle }}
+                  
+                 
+              {% endif %}
+       {% endfor %}
+{% endfor %}-->
+
+
+<!--{% assign post = include.post %}
+
+{% for site_tag in site.product_tags %}
+       {% assign site_tag_title = site_tag.handle | downcase  %}
+       {% for post_tag in post.categories %}
+            {% assign post_tag_downcase = post_tag | downcase %}
+            {% if site_tag_title == post_tag_downcase%}
+                 {{ site_tag.handle}}
+                 <br>
+                 {{ post.titulo }}
+                 <br>
+            
+            {% endif %}
+       {% endfor %}
+{% endfor %}-->
+<!--{% assign first_post = site.productos | first %}
+  {% assign post_tag_downcase = first_post.categories | first | downcase %}
+  {% for site_tag in site.product_tags %}
+    {% assign site_tag_title = site_tag.title | downcase %}
+    {% if site_tag_title == post_tag_downcase %}
+      {% if site_tag.handle %}
+        {% assign background = site_tag.handle %}
+        {% for p in background %}
+        
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+-->
+{% assign product = include.product%}
+                           {% for category in product.categories %}
+                           {% assign category_downcase = category | downcase %}
+                           {% for site_tag in site.product_tags %}
+                           {% assign site_tag_title = site_tag.handle | downcase  %}
+                           {% if site_tag_title == category_downcase%}
+                           {{ site_tag.handle }}
+                           {% endif %}
+                           {% endfor %}
+                          {% endfor %}
+                   

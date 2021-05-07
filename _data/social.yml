@@ -1,0 +1,22 @@
+- title: Siguenos
+  links: 
+    - name: Facebook
+      link: http://facebook.com
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: http://twitter.com
+      social_icon: Twitter
+      new_window: true
+    - name: Whatsapp
+      link: http://instagram.com
+      social_icon: Whatsapp
+      new_window: true
+    - name: YouTube
+      link: https://nz.linkedin.com
+      social_icon: YouTube
+      new_window: true
+    
+    
+
+    

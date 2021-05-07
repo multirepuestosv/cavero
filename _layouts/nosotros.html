@@ -1,0 +1,71 @@
+---
+layout: breadcrumb
+---
+    {% for feature in page.features %} 
+       {% case feature.handle %}
+          {% when 'nosotros' %}
+       <div class="about_section mt-32">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="about_thumb">
+                        <img src="{{ feature.image | relative_url }}" alt="">
+                    </div>
+
+                    <div class="about_content">
+                        <h1>{% if feature.title %}{{ feature.title }} {% endif %}</h1>
+                        <p>{{ feature.description }} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+          {% when 'choseus_area' %}
+       <div class="choseus_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="chose_title">
+                        <h1>{{ feature.title }}</h1>
+                    </div>
+                </div>
+                {% for subsection in feature.subsections %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_chose">
+                        <div class="chose_icone">
+                            <img src="{{ subsection.image  }}" alt="{{ subsection.description }}">
+                        </div>
+                        <div class="chose_content">
+                            <h3>{{ subsection.title }}</h3>
+                            <p>{{ subsection.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %} 
+            </div>
+        </div>
+       </div>
+          {% when 'about_gallery_section' %}
+      <div class="about_gallery_section">
+        <div class="container">
+            <div class="row">
+            {% for subsection in feature.subsections %}    
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_gallery_section">
+                        <div class="gallery_thumb">
+                            <img src="{{ subsection.image }}" alt="{{ subsection.description }}">
+                        </div>
+                        <div class="about_gallery_content">
+                            <h3>{{ subsection.title }}</h3>
+                            <p>{{ subsection.description }}</p>
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}    
+            </div>
+        </div>
+      </div>
+          
+      {% endcase %}
+    {% endfor %} 

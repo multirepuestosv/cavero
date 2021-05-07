@@ -1,0 +1,70 @@
+    <header class="header_area header_padding">
+        <div class="header_top">
+            <div class="container">
+                <div class="top_inner">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                        {% for column in site.data.social  %}
+                            <div class="follow_us">
+                                <label>{{ column.title }}</label>
+                                <ul class="follow_link">
+                                    {% for link in column.links %}
+                                    <li><a href="#">
+                                        {% if link.social_icon %}
+                                            {% include social-icon.html icon=link.social_icon %}
+                                          {% endif %}
+                                        </a></li>
+                                    {% endfor %}  
+                                </ul>
+                            </div>
+                        {% endfor %}    
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <!--include if needed top right header-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header_middle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="{{ site.data.company.image | relative_url }} " alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="middel_right">
+                            <div class="search-container">
+                                <form action="#">
+                                    <div class="search_box">
+                                        <input placeholder="Search entire store here ..." type="text">
+                                        <button type="submit"><i class="ion-ios-search-strong"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--  include Middle right info here <div class= middle_right_info></div>-->
+                            <div class="middel_right_info">
+
+                                <div class="header_wishlist">
+                                    <a href="#"><span class="lnr lnr-phone-handset"></span> 70306436 </a>
+                                </div>
+                                <div class="mini_cart_wrapper">
+                                    <a href="#"><span class="lnr lnr-clock"></span>8:30 a 19:00  </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Include here <div class = "mini_cart"></div>-->
+        
+        {% include menu.html %}
+    </header>
+        
+       

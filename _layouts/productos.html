@@ -1,0 +1,73 @@
+---
+layout: breadcrumb
+title: detalles producto
+---
+    <div class="product_details mt-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="product-details-tab">
+
+                        <div id="img-1" class="zoomWrapper single-zoom">
+                            <a href="#">
+                                <img id="zoom1" src="{{page.image | relative_url}}"
+                                    data-zoom-image="{{ page.image | relative_url}}" alt="big-1">
+                            </a>
+                        </div>
+                        <div class="single-zoom-thumb">
+                            <ul class="s-tab-zoom owl-carousel single-product-active" id="gallery_01">
+                                {% include detalle-producto-img.html product=page %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="product_d_right">
+                        <form action="#">
+                            <h1>{{ page.titulo}}</h1>
+                            <!--deletes product nav-->
+                            <div class=" product_ratting">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="review"><a href="#"> ( cliente) </a></li>
+                                </ul>
+
+                            </div>
+                            <!--deleted div pricebox-->
+                            <div class="product_desc">
+                                <p>{{ page.descripcion_markdown}} </p>
+                            </div>
+                            <!--deleted product-variant-color-->
+                            <!--delete productvarian quantity-->
+                            <!--deleted product action-->
+                            <!--deleted product_meta-->
+                            
+                        </form>
+                        <div class="priduct_social">
+                            <ul>
+                                <li><a class="facebook" href="#" title="facebook"><i class="fa fa-facebook"></i>
+                                        Like</a></li>
+                                <li><a class="twitter" href="#" title="twitter"><i class="fa fa-twitter"></i> tweet</a>
+                                </li>
+                                <li><a class="pinterest" href="#" title="pinterest"><i class="fa fa-pinterest"></i>
+                                        save</a></li>
+                                <li><a class="google-plus" href="#" title="google +"><i class="fa fa-google-plus"></i>
+                                        share</a></li>
+                                <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i>
+                                        linked</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--deleted product_d_info-->
+    
+    

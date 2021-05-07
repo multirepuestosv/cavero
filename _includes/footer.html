@@ -1,0 +1,72 @@
+<footer class="footer_widgets">
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container contact_us">
+                        <div class="footer_logo">
+                            <a href="#"><img src="{{ site.data.company.image | relative_url }} " alt=" {{ site.data.company.description }}"></a>
+                        </div>
+                        <div class="footer_contact">
+                            {{ site.data.company.info }}                           
+                             <a href="{{ site.data.company.contact_phone_number: }}">
+                                {{ site.data.company.contact_phone_number: }}</a></p>
+                        </div>
+                    </div>
+                </div>
+                {% for column in site.data.footer %}
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>{{ column.title }}</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                {% for link in column.links %}
+                                <li><a href="{{ link.link }}">{{ link.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}          
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container">
+                        <h3>Suscribete</h3>
+                        <p>No compartiremos tus datos.</p>
+                        <div class="subscribe_form">
+                            <form id="mc-form" class="mc-form footer-newsletter">
+                                <input id="mc-email" type="email" autocomplete="off"
+                                    placeholder="Enter you email address here..." />
+                                <button id="mc-submit">Subscriete</button>
+                            </form>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts text-centre">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                            </div><!-- mailchimp-alerts end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="copyright_area">
+                        <p class="copyright-text">&copy; {{ site.time | date: '%Y' }} 
+                             <a href="{{ 'index.html' | relative_url }}">Mureca Multi-Repuestos Cavero | Cochabamba, Bolivia.</a>
+                               
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer_payment text-right">
+                        <a href="#"><img src="{{ 'assets/img/icon/payment.png' | relative_url }}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--include here quick-view.html {% include quick-view.html %} not use-->
+

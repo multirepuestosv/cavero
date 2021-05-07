@@ -1,0 +1,52 @@
+---
+layout: breadcrumb
+---
+    <div class="faq_content_area mt-32">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="faq_content_wrapper">
+                        <h4>{{page.title}}</h4>
+                        <p>{{page.description}}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Accordion area-->
+    <div class="accordion_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="accordion" class="card__accordion">
+                    {% for f in page.faqs %}
+                        <div class="card card_dipult">
+                            <div class="card-header card_accor" id="heading-{{forloop.index}}">
+                                <button class="btn btn-link {% if forloop.first %} ''
+                                               {%else%}collapsed{%endif%}" 
+                                        data-toggle="collapse" 
+                                        data-target="#collapse-{{forloop.index}}" 
+                                        aria-expanded="true" 
+                                        aria-controls="collapseOne">
+                                        {{f.title }}
+                                    <i class="fa fa-plus"></i>
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                            </div>
+                            <div id="collapse-{{forloop.index}}" 
+                                 class="collapse {% if forloop.first %}show
+                                                 {%else%}''{%endif%}" 
+                                 aria-labelledby="heading-{{forloop.index}}"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>{{f.body }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    

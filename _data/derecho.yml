@@ -1,0 +1,52 @@
+features:
+- link: diego.html
+  class: top_links
+  subsections:
+  - class: dropdown_links
+    subsubfolderitems:
+          - link: checkout.html
+            name: Checkout
+          - link: my-account.html
+            name: My Account
+          - link: cart.html
+            name: Shopping Cart
+          - link: wishlist.html
+            name: Wishlist
+- link: andres.html
+  image: assets/img/logo/language.png
+  ico-class: ion-ios-arrow-down
+  class: language
+  subsections:
+  - class: dropdown_language
+    subsubfolderitems:
+          - link: checkout.html
+            title: Checkout
+            image:
+          - link: my-account.html
+            title: My Account
+            image:
+          - link: cart.html
+            title: Shopping Cart
+            image:
+          - link: wishlist.html
+            title: Wishlist
+            image:
+- link: currency.html
+  ico-class: ion-ios-arrow-down
+  class: currency
+  subsections:
+  - class: dropdown_language
+    subsubfolderitems:
+          - link: checkout.html
+            title: Checkout
+            image:
+          - link: my-account.html
+            title: My Account
+            image:
+          - link: cart.html
+            title: Shopping Cart
+            image:
+          - link: wishlist.html
+            title: Wishlist
+            image:
+  

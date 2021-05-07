@@ -1,0 +1,10 @@
+{% for img in include.product.subsubsection %}
+<li>
+    <a href="#" class="elevatezoom-gallery active" data-update=""
+       data-image="{{ img.image | relative_url }}"
+       data-zoom-image="{{ img.image | relative_url }}">
+        <img src="{{ img.image | relative_url }}" alt="zo-th-1" />
+    </a>
+
+</li>
+{% endfor %} 

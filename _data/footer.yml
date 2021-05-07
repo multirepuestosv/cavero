@@ -1,0 +1,18 @@
+- title: Informaccion
+  links:
+    - name: Nosotros
+      link: nosotros.html
+    - name: Preguntas Frecuentes
+      link: preguntas-frecuentes.html
+    
+    - name: Politicas de privacidad
+      link: #
+    
+- title: Extras
+  links:
+    - name: Inicio
+      link: index.html
+      
+    - name: contactos
+      link: contacto.html
+    

@@ -13,7 +13,7 @@ collections:
       
   productos:
     output: true
-    permalink: /mureca-multirepuestos-cavero/:path/
+    permalink: /repuestos/:path/
   
 defaults:
   - scope:

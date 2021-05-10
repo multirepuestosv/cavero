@@ -1,24 +1,24 @@
 ---
 layout: index-internal
-title:   Inicio
+title: Inicio
 subtitle:
 header_title:
 features:
   - title:
     handle: slider
     subsections:
-      - titulo:   Comercialización de repuestos para autos
-        subtitulo:  Somos expertos en Importación y
+      - titulo: Comercialización de repuestos para autos Suzuki
+        subtitulo: Somos expertos en Importación y
         image: assets/img/slider/sliderm2.jpg
         link: shop.html
         boton: Llamanos
-      - titulo: Contamos con un amplio stock 
-        subtitulo: listos para entrega inmediata en cochabamba 
+      - titulo: Contamos con un amplio stock
+        subtitulo: listos para entrega inmediata en cochabamba
         image: assets/img/slider/diego.jpg
         link: shop.html
         boton: Que esperas
-      - titulo:  Nos especializamos en los vehiculos Suzuki
-        subtitulo:  faroles, stop, retrovisores, parachoques, mascaras y puertas
+      - titulo: Nos especializamos en los vehiculos Suzuki
+        subtitulo: 'faroles, stop, retrovisores, parachoques, mascaras y puertas'
         image: assets/img/slider/slider-clerio.png
         link: shop.html
         boton: Te esperamos

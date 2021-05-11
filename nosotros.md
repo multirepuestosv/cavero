@@ -1,8 +1,8 @@
 ---
 layout: nosotros
 title: Nosotros 
-subtitle: |-
-           Somos expertos en Importación y Comercialización de repuestos americanos y Japoneses. Ofrecemos exclusividad como su agente de compra en Estados Unidos
+subtitle: >
+           Somos expertos en Importación y Comercialización de repuestos americanos y Japoneses.
   
 features:
 - title: Bienvenido!

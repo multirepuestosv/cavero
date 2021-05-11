@@ -1,0 +1,130 @@
+---
+layout: breadcrumb
+title:  Mostrar
+---
+    <div class="shop_area shop_fullwidth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="shop_title">
+                        <h1>Mascaras</h1>
+                    </div>
+                    <div class="shop_toolbar_wrapper">
+                        <div class="shop_toolbar_btn">
+
+                            <button data-role="grid_3" type="button" class=" btn-grid-3" data-toggle="tooltip"
+                                title="3"></button>
+
+                            <button data-role="grid_4" type="button" class=" btn-grid-4" data-toggle="tooltip"
+                                title="4"></button>
+
+                            <button data-role="grid_list" type="button" class="active btn-list" data-toggle="tooltip"
+                                title="List"></button>
+                        </div>
+                        <div class=" niceselect_option">
+
+                            <form class="select_option" action="#">
+                                <select name="orderby" id="short">
+
+                                    <option selected value="1">Sort by average rating</option>
+                                    <option value="2">Sort by popularity</option>
+                                    <option value="3">Sort by newness</option>
+                                    <option value="4">Sort by price: low to high</option>
+                                    <option value="5">Sort by price: high to low</option>
+                                    <option value="6">Product Name: Z</option>
+                                </select>
+                            </form>
+
+
+                        </div>
+                        <div class="page_amount">
+                            <p> productos</p>
+                        </div>
+                    </div>
+                    <div class="row shop_wrapper grid_list" id="search-hits">
+                        {% for product in site.productos %}
+                        <div class="col-12 ">
+                            <div class="single_product">
+                                <div class="product_name grid_name">
+                                     <h3>
+                                         <a href="{{ product.url | relative_url }}">{{ product.titulo }}</a>
+                                     </h3>
+                                     <p class="manufacture_product">
+                                         <a href="{{ product.url | relative_url }}">
+                                         Accessories
+                                        </a>
+                                     </p>
+                                </div>
+                                <div class="product_thumb">
+                                     <a class="primary_img" href="{{ product.url | relative_url }}">
+                                         <img src="{{ product.image | relative_url}}" alt="{{ product.descripcion_markdown}}">
+                                     </a>
+                                     <a class="secondary_img" href="{{ product.url | relative_url }}">
+                                         <img src="{{ product.img | relative_url }}" alt="{{ product.descripcion_markdown}}">
+                                     </a>
+                                     <div class="label_product">
+                                          <span class="label_sale">{{ product.descuento}}</span>
+                                     </div>
+                                     <div class="action_links">
+                                          <ul>
+                                              <li class="wishlist">
+                                                  <a href="{{ product.url | relative_url }}"  title="Ver Producto"> 
+                                                       <span class="lnr lnr-magnifier"></span>
+                                                  </a>
+                                              </li>
+                                              <!--Deleted the 3 list here-->
+                                          </ul>
+                                     </div>
+                                </div>
+                                <div class="product_content grid_content">
+                                     <div class="content_inner">
+                                          <div class="product_ratings">
+                                               <ul>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                               </ul>
+                                          </div>
+                                          <!--Deleted the product footer wich includes price and cart<div class="product_footer d-flex align-items-center">
+                                          </div>-->
+                                    </div>
+                                </div>
+                                <div class="product_content list_content">
+                                    <div class="left_caption">
+                                         <div class="product_name">
+                                              <h3>
+                                                  <a href="{{ product.url | relative_url }}">{{ product.titulo }}
+                                                  </a>
+                                              </h3>
+                                          </div>
+                                         <div class="product_ratings">
+                                              <ul>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                              </ul>
+                                         </div>
+                                         <div class="product_desc">
+                                               <p>
+                                                   {{ product.descripcion_markdown }}
+                                               </p>
+                                         </div>
+                                    </div>
+                                    <div class="right_caption">
+                                         <div class="text_available">
+                                              <p>Disponible: <span>{{ product.stock }}</span></p>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

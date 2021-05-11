@@ -32,19 +32,12 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3">
                         <div class="logo">
-                            <a href="index.html"><img src="{{ site.data.company.image | relative_url }} " alt=""></a>
+                            <a href="{{ 'index.html' | relative_url }}"><img src="{{ site.data.company.image | relative_url }} " alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9">
                         <div class="middel_right">
-                            <div class="search-container">
-                                <form action="#">
-                                    <div class="search_box">
-                                        <input placeholder="Search entire store here ..." type="text">
-                                        <button type="submit"><i class="ion-ios-search-strong"></i></button>
-                                    </div>
-                                </form>
-                            </div>
+                            {% include buscador.html %}
                             <!--  include Middle right info here <div class= middle_right_info></div>-->
                             <div class="middel_right_info">
 

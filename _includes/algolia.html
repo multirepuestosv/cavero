@@ -1,0 +1,114 @@
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  indexName: '{{ site.algolia.index_name }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}'
+});
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    poweredBy: false // This is required if you're on the free Community plan
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: function(hit) {
+        return `
+        <div class="col-12 ">
+                            <div class="single_product">
+                                <div class="product_name grid_name">
+                                     <h3>
+                                         <a href="{{ hit.url | relative_url }}">{{ hit.titulo }}</a>
+                                     </h3>
+                                     <p class="manufacture_product">
+                                         <a href="{{ hit.url | relative_url }}">
+                                         Accessories
+                                        </a>
+                                     </p>
+                                </div>
+                                <div class="product_thumb">
+                                     <a class="primary_img" href="{{ hit.url | relative_url }}">
+                                         <img src="{{ hit.image | relative_url}}" alt="{{hit.descripcion_markdown}}">
+                                     </a>
+                                     <a class="secondary_img" href="{{ product.url | relative_url }}">
+                                         <img src="{{ product.img | relative_url }}" alt="{{ product.descripcion_markdown}}">
+                                     </a>
+                                     <div class="label_product">
+                                          <span class="label_sale">{{ product.descuento}}</span>
+                                     </div>
+                                     <div class="action_links">
+                                          <ul>
+                                              <li class="wishlist">
+                                                  <a href="{{ product.url | relative_url }}"  title="Ver Producto"> 
+                                                       <span class="lnr lnr-magnifier"></span>
+                                                  </a>
+                                              </li>
+                                              <!--Deleted the 3 list here-->
+                                          </ul>
+                                     </div>
+                                </div>
+                                <div class="product_content grid_content">
+                                     <div class="content_inner">
+                                          <div class="product_ratings">
+                                               <ul>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                                  <li><a href="#"><i class="ion-star"></i></a></li>
+                                               </ul>
+                                          </div>
+                                          <!--Deleted the product footer wich includes price and cart<div class="product_footer d-flex align-items-center">
+                                          </div>-->
+                                    </div>
+                                </div>
+                                <div class="product_content list_content">
+                                    <div class="left_caption">
+                                         <div class="product_name">
+                                              <h3>
+                                                  <a href="{{ product.url | relative_url }}">{{ product.titulo }}
+                                                  </a>
+                                              </h3>
+                                          </div>
+                                         <div class="product_ratings">
+                                              <ul>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                                 <li><a href="#"><i class="ion-star"></i></a></li>
+                                              </ul>
+                                         </div>
+                                         <div class="product_desc">
+                                               <p>
+                                                   {{ product.descripcion_markdown }}
+                                               </p>
+                                         </div>
+                                    </div>
+                                    <div class="right_caption">
+                                         <div class="text_available">
+                                              <p>Disponible: <span>{{ product.stock }}</span></p>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        `;
+      }
+    }
+  })
+);
+
+// Starting the search
+search.start();
+</script>

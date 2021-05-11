@@ -9,7 +9,7 @@ features:
     subsections:
       - titulo:   Comercialización de repuestos para autos
         subtitulo:  Somos expertos en Importación y
-        image: assets/img/slider/sliderm2.jpg
+        image: https://res.cloudinary.com/ditw3j9dg/image/upload/v1620648498/img/slider/sliderm2_b2twdo.jpg
         link: shop.html
         boton: Llamanos
       - titulo: Contamos con un amplio stock 

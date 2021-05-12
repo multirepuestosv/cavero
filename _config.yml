@@ -1,6 +1,6 @@
 
 title: Mureca Multirepuestos Cavero
-description: Somos expertos en Importación y Comercialización de repuestos para autos de toda marca
+
 facebook:
   publisher: Mureca Multirepuestos Cavero
 
@@ -22,6 +22,8 @@ defaults:
     values:
       layout: "productos"
 
+
+google_analytics: G-MRLSNC5CNS
 
 plugins:
     - jekyll-seo-tag

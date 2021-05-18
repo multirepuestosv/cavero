@@ -13,7 +13,7 @@ price: '140.00'
 old_price: '3200.00'
 stock: 10
 categories:
-- parachoque
+- vidrio
 subsubsection:
 - image: assets/img/product/product8.jpg
 - image: assets/img/product/product9.jpg

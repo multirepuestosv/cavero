@@ -18,13 +18,13 @@
               </div>
               <div class="product_thumb">
                    <a class="primary_img" href="{{ product.url | relative_url }}">
-                       <img src="{{ product.image | relative_url}}" alt="{{ product.descripcion_markdown}}">
+                       <img src="{{ product.image | relative_url}}" alt="{{ product.description_path}}">
                    </a>
                    <a class="secondary_img" href="{{ product.url | relative_url }}">
-                       <img src="{{ product.img | relative_url }}" alt="{{ product.descripcion_markdown}}">
+                       <img src="{{ product.image_path | relative_url }}" alt="{{ product.description_path}}">
                    </a>
                    <div class="label_product">
-                        <span class="label_sale">{{ product.descuento}}</span>
+                        <span class="label_sale">{{ product.modelo}}</span>
                    </div>
                    <div class="action_links">
                         <ul>
@@ -71,7 +71,7 @@
                        </div>
                        <div class="product_desc">
                              <p>
-                                 {{ product.descripcion_markdown }}
+                                 {{ product.description_path }}
                              </p>
                        </div>
                   </div>

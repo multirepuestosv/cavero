@@ -1462,6 +1462,24 @@
 
 
                         
+                             
+
+    
+      
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+
+                        
                     </div>
                 </div>
             </div>
@@ -1752,8 +1770,8 @@
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-<link rel="stylesheet" href="/assets/css/style.css">
 <script>
+
 // Instanciating InstantSearch.js with Algolia credentials
 const search = instantsearch({
   appId: 'JIP7JIGUL5',
@@ -1765,6 +1783,7 @@ const search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
+    placeholder: 'Search for products',
     poweredBy: false // This is required if you're on the free Community plan
   })
 );
@@ -1778,7 +1797,7 @@ search.addWidget(
                             <div class="single_product">
                                 <div class="product_name grid_name">
                                      <h3>
-                                         <a href=""></a>
+                                         <a href="">${hit.titulo}</a>
                                      </h3>
                                      <p class="manufacture_product">
                                          <a href="">

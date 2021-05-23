@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
 <script>
+
 // Instanciating InstantSearch.js with Algolia credentials
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
@@ -14,6 +15,7 @@ const search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
+    placeholder: 'Search for products',
     poweredBy: false // This is required if you're on the free Community plan
   })
 );
@@ -27,7 +29,7 @@ search.addWidget(
                             <div class="single_product">
                                 <div class="product_name grid_name">
                                      <h3>
-                                         <a href="{{ hit.url | relative_url }}">{{ hit.titulo }}</a>
+                                         <a href="{{ hit.url | relative_url }}">${hit.titulo}</a>
                                      </h3>
                                      <p class="manufacture_product">
                                          <a href="{{ hit.url | relative_url }}">
@@ -43,7 +45,7 @@ search.addWidget(
                                          <img src="{{ product.img | relative_url }}" alt="{{ product.descripcion_markdown}}">
                                      </a>
                                      <div class="label_product">
-                                          <span class="label_sale">{{ product.descuento}}</span>
+                                          <span class="label_sale">{{hit.descuento}}</span>
                                      </div>
                                      <div class="action_links">
                                           <ul>

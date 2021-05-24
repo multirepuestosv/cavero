@@ -42,8 +42,7 @@ algolia:
   application_id: JIP7JIGUL5
   index_name: mureca
   search_only_api_key: 1665ebdd3ae5ee916f46e34186df9769
-  extensions_to_index:
-    - md
+  
   files_to_exclude:
     - index.html
     - index.md

@@ -15,7 +15,7 @@ const search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: 'Search for products',
+    
     poweredBy: false // This is required if you're on the free Community plan
   })
 );
@@ -39,13 +39,13 @@ search.addWidget(
                                 </div>
                                 <div class="product_thumb">
                                      <a class="primary_img" href="{{ hit.url | relative_url }}">
-                                         <img src="{{ hit.image | relative_url}}" alt="{{hit.descripcion_markdown}}">
+                                         <img src="${hit.image}" alt="{{hit.descripcion_markdown}}">
                                      </a>
                                      <a class="secondary_img" href="{{ product.url | relative_url }}">
-                                         <img src="{{ product.img | relative_url }}" alt="{{ product.descripcion_markdown}}">
+                                         <img src="${hit.img}" alt="{{ product.descripcion_markdown}}">
                                      </a>
                                      <div class="label_product">
-                                          <span class="label_sale">{{hit.descuento}}</span>
+                                          <span class="label_sale">${hit.descuento}</span>
                                      </div>
                                      <div class="action_links">
                                           <ul>
@@ -54,7 +54,7 @@ search.addWidget(
                                                        <span class="lnr lnr-magnifier"></span>
                                                   </a>
                                               </li>
-                                              <!--Deleted the 3 list here-->
+                                              
                                           </ul>
                                      </div>
                                 </div>
@@ -69,15 +69,13 @@ search.addWidget(
                                                   <li><a href="#"><i class="ion-star"></i></a></li>
                                                </ul>
                                           </div>
-                                          <!--Deleted the product footer wich includes price and cart<div class="product_footer d-flex align-items-center">
-                                          </div>-->
-                                    </div>
+                                            </div>
                                 </div>
                                 <div class="product_content list_content">
                                     <div class="left_caption">
                                          <div class="product_name">
                                               <h3>
-                                                  <a href="{{ product.url | relative_url }}">{{ product.titulo }}
+                                                  <a href="{{ product.url | relative_url }}">${hit.titulo }
                                                   </a>
                                               </h3>
                                           </div>
@@ -92,13 +90,13 @@ search.addWidget(
                                          </div>
                                          <div class="product_desc">
                                                <p>
-                                                   {{ product.descripcion_markdown }}
+                                                  ${hit.description_path }
                                                </p>
                                          </div>
                                     </div>
                                     <div class="right_caption">
                                          <div class="text_available">
-                                              <p>Disponible: <span>{{ product.stock }}</span></p>
+                                              <p>Disponible: <span>${hit.stock }</span></p>
                                          </div>
                                     </div>
                                 </div>

@@ -831,13 +831,13 @@ search.addWidget(
                                 </div>
                                 <div class="product_thumb">
                                      <a class="primary_img" href="">
-                                         <img src="${hit.image}" alt="">
+                                         <img src="${hit.image}" alt="${hit.description}">
                                      </a>
                                      <a class="secondary_img" href="">
-                                         <img src="${hit.img}" alt="">
+                                         <img src="${hit.image_path}" alt="${hit.description}">
                                      </a>
                                      <div class="label_product">
-                                          <span class="label_sale">${hit.descuento}</span>
+                                          <span class="label_sale">${hit.modelo}</span>
                                      </div>
                                      <div class="action_links">
                                           <ul>
@@ -882,13 +882,13 @@ search.addWidget(
                                          </div>
                                          <div class="product_desc">
                                                <p>
-                                                  ${hit.description_path }
+                                                  ${hit.description}
                                                </p>
                                          </div>
                                     </div>
                                     <div class="right_caption">
                                          <div class="text_available">
-                                              <p>Disponible: <span>${hit.stock }</span></p>
+                                              <p>Marca: <span>${hit.marca}</span></p>
                                          </div>
                                     </div>
                                 </div>

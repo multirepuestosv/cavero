@@ -18,10 +18,10 @@
               </div>
               <div class="product_thumb">
                    <a class="primary_img" href="{{ product.url | relative_url }}">
-                       <img src="{{ product.image | relative_url}}" alt="{{ product.description_path}}">
+                       <img src="{{ product.image | relative_url}}" alt="{{ product.description}}">
                    </a>
                    <a class="secondary_img" href="{{ product.url | relative_url }}">
-                       <img src="{{ product.image_path | relative_url }}" alt="{{ product.description_path}}">
+                       <img src="{{ product.image_path | relative_url }}" alt="{{ product.description}}">
                    </a>
                    <div class="label_product">
                         <span class="label_sale">{{ product.modelo}}</span>
@@ -71,13 +71,13 @@
                        </div>
                        <div class="product_desc">
                              <p>
-                                 {{ product.description_path }}
+                                 {{ product.description }}
                              </p>
                        </div>
                   </div>
                   <div class="right_caption">
                        <div class="text_available">
-                            <p>Disponible: <span>{{ product.stock }}</span></p>
+                            <p>Disponible: <span>{{ product.marca }}</span></p>
                        </div>
                   </div>
               </div>

@@ -2,15 +2,11 @@
 titulo: vidrios suzuki 1
 marca: suzuki
 modelo: vitara
-rating: 3
 image: assets/img/product/product18.jpg
-img: assets/img/product/product1.jpg
-descuento: -47%
-free_shipping: 
-descripcion_markdown: >-
-          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+image_path: assets/img/product/product1.jpg 
+description: >-
+          eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus 
 price: '175.00'
-stock: 10
 categories:
 - vidrio
 subsubsection:

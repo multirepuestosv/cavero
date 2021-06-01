@@ -59,4 +59,9 @@ algolia:
     - 404.html
     - mostrar.html
     - prueba.html
-    
+  
+exclude:
+  - assets
+  - Gemfile
+  - Gemfile.lock
+  

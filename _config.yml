@@ -61,7 +61,6 @@ algolia:
     - prueba.html
   
 exclude:
-  - assets
   - Gemfile
   - Gemfile.lock
   

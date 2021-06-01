@@ -1,8 +1,15 @@
 <div class="search-container">
-    <form action="#">
+    <form action="mostrar.html">
         <div id="search-searchbar" class="search_box">
             <input placeholder="Buscador ..." type="text">
             <button type="submit"><i class="ion-ios-search-strong"></i></button>
         </div>
     </form>
 </div>
+<script>
+let a=document.getElementById('search-searchbar');
+    a.addEventListener('click',function (event) {
+      event.preventDefault(); //esto cancela el comportamiento del click
+      setTimeout(()=> location.href="https://murecamultirepuestoscavero.netlify.app/mostrar.html",1000);
+    });
+    </script>

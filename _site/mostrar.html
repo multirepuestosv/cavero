@@ -130,18 +130,18 @@
                             <div class="search-container">
     <form action="mostrar.html">
         <div id="search-searchbar" class="search_box">
-            <input placeholder="Buscador ..." type="text">
+            <input placeholder="Buscador inteligente..." type="text">
             <button type="submit"><i class="ion-ios-search-strong"></i></button>
         </div>
     </form>
 </div>
 <script>
-let a=document.getElementById('search-searchbar');
-    a.addEventListener('click',function (event) {
-      event.preventDefault(); //esto cancela el comportamiento del click
-      setTimeout(()=> location.href="https://murecamultirepuestoscavero.netlify.app/mostrar.html",1000);
+    let a=document.getElementById('search-searchbar');
+           a.addEventListener('click',function (event) {
+           event.preventDefault(); //esto cancela el comportamiento del click
+           setTimeout(()=> location.href="http://127.0.0.1:4000/mostrar.html",1000);
     });
-    </script>
+</script>
                             <!--  include Middle right info here <div class= middle_right_info></div>-->
                             <div class="middel_right_info">
 
@@ -2117,7 +2117,6 @@ search.addWidget(
     poweredBy: false // This is required if you're on the free Community plan
   })
 );
-
 search.addWidget(
   instantsearch.widgets.hits({
     container: '#search-hits',

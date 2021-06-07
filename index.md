@@ -1,8 +1,8 @@
 ---
 layout: index-internal
 title: Inicio
-subtitle:
-header_title:
+description: >
+         Buscando accesorios ṕara tu auto?, Explora  en nuestro sitio web encontraras repuestos Americanos, Japones, chinos y mas, tambien hacemos pedidos.
 features:
   - title:
     handle: slider

@@ -1,7 +1,7 @@
 ---
 layout: nosotros
 title: Nosotros 
-subtitle: >
+description: >
            Somos expertos en Importación y Comercialización de repuestos americanos y Japoneses.
   
 features:

@@ -1,8 +1,9 @@
 ---
-title: Mureca Nuestros Servicios
-lang: en
-ref:
+title: Servicios
 layout: services
+description: >
+      Uno de nuestros servicios es ofrecerle pedidos en tiempo establecido
+         
 services:
 - title: 
   handle: services_gallery

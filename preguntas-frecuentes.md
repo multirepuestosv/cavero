@@ -1,7 +1,7 @@
 ---
 layout: faq
 title: Preguntas frecuentes 
-subtitle: Preguntas frecuentes Mureca Multirepuesto Cavero.
+description: Preguntas frecuentes Mureca Multirepuesto Cavero.
 faqs:
   - title: ¿Qué tipo de repuestos vende Mureca Multirepuesto Cavero?
     body: >-

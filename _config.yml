@@ -1,16 +1,19 @@
 
 title: Mureca Multirepuestos Cavero
+url: https://murecamultirepuestoscavero.netlify.app/
+description:  En Mureca Multirepuesto Cavero Cochabamba-Bolivia usted puede encontrar numerosos artículos de accesorios desde chasis, carroceria, motor y electrico de coches Japonese Y Americanos 
 
-facebook:
-  publisher: Mureca Multirepuestos Cavero
-
+social:
+  name: Mureca Multirepuestos Cavero
+  links:
+    - https://www.facebook.com/importadoramureca
+    
+language: "es"
 
 
 collections:
   product_tags:
       output: true
-      
-      
   productos:
     output: true
     permalink: /repuestos/:path/
@@ -33,9 +36,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# _config.yml
-url: https://murecamultirepuestoscavero.netlify.app/
-description:  En Mureca Multirepuesto Cavero Cochabamba-Bolivia usted puede encontrar numerosos artículos de accesorios desde chasis, carroceria, motor y electrico de coches Japonese Y Americanos 
 
 algolia:
   #settings: false

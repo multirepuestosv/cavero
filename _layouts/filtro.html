@@ -1,0 +1,65 @@
+---
+layout: breadcrumb
+---
+
+<div class="shop_area shop_fullwidth">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="shop_title">
+                    <h1>shop</h1>
+                </div>
+                <div class="shop_toolbar_wrapper">
+                    <div class="shop_toolbar_btn">
+
+                        <button data-role="grid_3" type="button" class=" btn-grid-3" data-toggle="tooltip"
+                            title="3"></button>
+
+                        <button data-role="grid_4" type="button" class=" btn-grid-4" data-toggle="tooltip"
+                            title="4"></button>
+
+                        <button data-role="grid_list" type="button" class="active btn-list" data-toggle="tooltip"
+                            title="List"></button>
+                    </div>
+                    <div class=" niceselect_option">
+                        
+                        <form class="select_option" action="#">
+
+                            
+                    
+                              {% include pills.html %}
+                        
+                        
+                            
+                        </form>
+
+
+                    </div>
+                    <div class="page_amount">
+                        <p>Showing 1–9 of 21 results</p>
+                    </div>
+                </div>
+
+                <div class="row shop_wrapper grid_list">
+                {% for product in site.productos %}
+                    <div class="col-12 ">
+                        {% include single-producto.html 
+                            titulo=product.titulo
+                            marca=product.marca
+                            link=product.url
+                            modelo=product.modelo
+                            image=product.image
+                            image_path=product.image_path
+                            description=product.description
+                            categories=product.categories
+                            subsubsection=product.subsubsection
+                            price= product.price
+
+                        %}
+                    </div>
+                {% endfor %}    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

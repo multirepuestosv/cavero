@@ -10,6 +10,8 @@ social:
     
 language: "es"
 
+tag_page_layout: 
+tag_page_dir: 
 
 collections:
   product_tags:
@@ -31,6 +33,7 @@ google_analytics: G-MRLSNC5CNS
 plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
+    - jekyll/tagging
 
 exclude:
   - Gemfile
@@ -59,6 +62,7 @@ algolia:
     - 404.html
     - mostrar.html
     - prueba.html
+    - mureca-productos-filtro.html
   
 exclude:
   - Gemfile

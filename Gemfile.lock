@@ -52,6 +52,8 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.5.1)
@@ -68,6 +70,7 @@ GEM
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.11.0)
@@ -95,6 +98,7 @@ DEPENDENCIES
   jekyll-algolia
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-tagging
   webrick (~> 1.7)
 
 RUBY VERSION

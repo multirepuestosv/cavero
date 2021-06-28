@@ -1,0 +1,17 @@
+<!--
+---
+layout: default
+---
+{% for num in site.productos%}
+   
+{{ num.titulo }}</br>
+{% endfor %}
+
+{% assign product = site.productos  %}
+      {% for p in product%}
+      {% for c in p.categories%}
+        {{ c }}
+      {% endfor %}
+      {% endfor %}
+    
+-->

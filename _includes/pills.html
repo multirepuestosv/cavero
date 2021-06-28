@@ -1,13 +1,30 @@
-<select name="orderby" id="short">
-<!--{% for item in include.items %}
-{{ item}}
-{% endfor %} -->
+{% assign product = include.product %}
 
-    <option selected value="1">order by </option>
-    <option value="2">Sort by popularity</option>
-    <option value="3">Sort by newness</option>
-    <option value="4">Sort by price: low to high</option>
-    <option value="5">Sort by price: high to low</option>
-    <option value="6">Product Name: Z</option>
-  
+<select name="orderby" id="short">
+{% assign first_product = site.productos | last %}
+  {% assign product_tag_downcase = first_product.categories | last | downcase %}
+  {% for product_tag in site.product_tags %}
+    {% assign product_tag_title = product_tag.handle | downcase %}
+    {% if product_tag_title == product_tag_downcase %}
+        
+    
+    {% assign title = product_tag_downcase %}
+   
+    
+    {% endif %}
+  {% endfor %}
+  {% assign tags_max = 0 %}
+{% assign p = site.productos|first %}
+
+{% for tag in p.categories%}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
+  {% endif %}
+{% endfor %}
+
+ {% assign counter = 1 %}
+{% for category in site.data.prueba.categories %} 
+  <option {% if forloop.first %}selected {%endif%}value="{{ counter }}"> {{ tags_max }}</option>
+{% capture counter %}{{ counter | plus: 1 }}{% endcapture %}
+{% endfor %}
 </select>

@@ -2,12 +2,13 @@
 layout: index-internal
 title: Inicio
 description: >
-         Buscando accesorios ṕara tu auto?, Explora  en nuestro sitio web encontraras repuestos Americanos, Japones, chinos y mas, tambien hacemos pedidos.
+  Buscando accesorios ṕara tu auto?, Explora  en nuestro sitio web encontraras
+  repuestos Americanos, Japones, chinos y mas, tambien hacemos pedidos.
 features:
   - title:
     handle: slider
     subsections:
-      - titulo: Comercialización de repuestos para autos Suzuki
+      - titulo: Comercialización de repuestos para autos Suzuki y Toyota
         subtitulo: Somos expertos en Importación y
         image: assets/img/slider/sliderm2.jpg
         link: shop.html
@@ -18,7 +19,7 @@ features:
         link: shop.html
         boton: Que esperas
       - titulo: Nos especializamos en los vehiculos Suzuki
-        subtitulo: 'faroles, stop, retrovisores, parachoques, mascaras y puertas'
+        subtitulo: faroles, stop, retrovisores, parachoques, mascaras y puertas
         image: assets/img/slider/slider-clerio.png
         link: shop.html
         boton: Te esperamos
